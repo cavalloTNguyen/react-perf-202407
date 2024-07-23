@@ -1,3 +1,3 @@
 # React Perf Demo
 
-URL: https://lively-raindrop-a0441d.netlify.app/
+URL: https://cavallo-react-perf.netlify.app/
