@@ -7,6 +7,7 @@ export const LeakyCallbackDemo = () => {
   const [toggle, setToggle] = useState(false);
   const contextObject = new DemoObject(); // 64MB
 
+  // These are intentionally written to use the state value so that we bring in the context
   const updateCounter = useCallback(() => {
     setCounter(counter + 1);
   }, [counter]);
