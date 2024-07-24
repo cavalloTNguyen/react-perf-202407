@@ -5,7 +5,7 @@ import { Button } from "./button";
 export const LeakyCallbackDemo = () => {
   const [counter, setCounter] = useState(0);
   const [toggle, setToggle] = useState(false);
-  const contextObject = new DemoObject(); // 64MB
+  const contextObject = new DemoObject(); // 256MB
 
   // These are intentionally written to use the state value so that we bring in the context
   const updateCounter = useCallback(() => {
